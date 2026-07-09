@@ -4,6 +4,8 @@ export const Elements = {
         passwordInput: '[data-test="password"]',
         loginButton: '[data-test="login-button"]',
         errorMessage: '[data-test="error"]',
+        burgerMenuButton: '#react-burger-menu-btn',
+        logoutButton: '[data-test="logout-sidebar-link"]',
     },
     inventory: {
         cartBadge: '[data-test="shopping-cart-badge"]',

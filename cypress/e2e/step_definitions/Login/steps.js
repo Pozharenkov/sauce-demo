@@ -17,3 +17,11 @@ Then('I should be redirected to the inventory page', () => {
 Then('I should see a locked out error message', () => {
   verifications.verifyLockedOutError();
 });
+
+When('I log out', () => {
+  actions.logout();
+});
+
+Then('I should be back on the login page', () => {
+  verifications.verifyLoginPage();
+});

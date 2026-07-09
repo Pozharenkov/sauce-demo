@@ -10,3 +10,17 @@ Feature: Login Functionality
     Scenario: 004 - Login as locked user and verify error
         When I login with a "locked" user
         Then I should see a locked out error message
+
+    Scenario Outline: 006 - Login and logout as <userType> user
+        When I login with a "<userType>" user
+        Then I should be redirected to the inventory page
+        When I log out
+        Then I should be back on the login page
+
+        Examples:
+            | userType    |
+            | standard    |
+            | problem     |
+            | performance |
+            | error       |
+            | visual      |
