@@ -1,0 +1,10 @@
+{
+  "users": {
+    "standard": { "username": "REPLACE_ME", "password": "REPLACE_ME" },
+    "locked": { "username": "REPLACE_ME", "password": "REPLACE_ME" },
+    "problem": { "username": "REPLACE_ME", "password": "REPLACE_ME" },
+    "performance": { "username": "REPLACE_ME", "password": "REPLACE_ME" },
+    "error": { "username": "REPLACE_ME", "password": "REPLACE_ME" },
+    "visual": { "username": "REPLACE_ME", "password": "REPLACE_ME" }
+  }
+}
